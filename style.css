@@ -101,3 +101,19 @@ h1 {
     .hero p { font-size: 1.2rem; }
     .features h2 { font-size: 2rem; }
 }
+.demo-gif {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    display: block;
+    margin: 0 auto 30px;
+    border: 2px solid rgba(255,255,255,0.1);
+}
+
+@media (max-width: 768px) {
+    .demo-gif {
+        max-height: 200px;
+    }
+}
